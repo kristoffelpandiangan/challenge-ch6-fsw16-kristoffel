@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "tofel1112",
+    "database": "db_adsands",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "testing",
+    "password": "testing123",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "adsands",
+    "password": "adsands#1112",
+    "database": "db_adsands_prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

@@ -1,0 +1,25 @@
+<div class="text-center center-div pb-3" id="signup">
+    <div class="container w-25 border py-1 collogin">
+      <div class="title pb-4">
+        <h2 class="font-weight-bold">Delete User</h2>
+        <span>Please make sure that you want to delete your user permanently!</span>
+      </div>
+      <form action="/route/delete" method="POST">
+        <div class="form-group">
+          <small class="form-text text-muted text-left">Input your username</small>
+          <input type="text" class="form-control" name="username" placeholder="username" />
+        </div>
+        <div class="form-group">
+          <small class="form-text text-muted text-left">Input your password</small>
+          <input type="password" class="form-control" name="password" placeholder="password" />
+        </div>
+        <div class="form-group">
+          <small class="form-text text-muted text-left">Confirm your password</small>
+          <input type="password" class="form-control" name="password" placeholder="password" />
+        </div>
+        <button type="submit" class="btn btn-danger text-red fw-bold rounded-pill" >Delete User</button>
+      </form>
+    </div>
+  </div>
+  ;
+  
